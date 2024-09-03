@@ -6,7 +6,9 @@ let bodyHeight;
 bodyWeight = '68';
 bodyHeight = '1.7';
 
-const bmi = bodyWeight / (bodyHeight * bodyHeight);
+// 変数の宣言・値の代入
+let bmi;
+bmi = bodyWeight / (bodyHeight * bodyHeight);
 
 //　コンソールへの出力
 console.log(bmi);
